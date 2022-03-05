@@ -1,0 +1,15 @@
+{
+	"name": "simple/verysimple",
+	"description" : "simple project",
+	"license":"MIT",
+	
+	"require": {
+		"illuminate/database": "*",
+      "ext-mysql": "*"
+    },
+	
+	"autoload":{
+		"classmap":["Models","views"],
+		"files": ["config.php"]
+	}
+}
